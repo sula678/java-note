@@ -1,0 +1,12 @@
+package com.neil;
+
+import java.util.Scanner;
+
+public class Source {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		//System.out.print(isUniqueChars(in.nextLine()));
+		System.out.println(new StringBuilder(in.nextLine()).reverse().toString());
+		in.close();
+	}
+}
